@@ -1,0 +1,100 @@
+/* General container styling */
+.learn-container {
+    padding: 2rem;
+    color: #f0f0f0;
+    background-color: #3c547d; /* Dark blue background */
+    min-height: 100vh;
+  }
+  
+  /* Header section with floating and sliding effect */
+  .header-slide {
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: slideDown 1s ease forwards, floatEffect 2s ease-in-out infinite alternate;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Grid layout for technology cards */
+  .technology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .tech-card {
+    background-color: #1a2a5e; /* Slightly lighter blue for cards */
+    color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Practice section styling */
+  .practice-section {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #162e6a; /* Darker shade for practice section */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .practice-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .practice-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    color: #f0f0f0;
+    background-color: #1e90ff; /* Bright button color */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .practice-btn:hover {
+    background-color: #1c7cd6;
+  }
+  
+  /* Animation for slide-down effect */
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation for floating effect */
+  @keyframes floatEffect {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
