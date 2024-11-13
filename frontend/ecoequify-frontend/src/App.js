@@ -1,7 +1,7 @@
-// src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Assessment from "./pages/Assessment";
 import Learn from "./pages/Learn";
@@ -14,7 +14,8 @@ const App = () => {
       <Navbar />
       <div className="container mx-auto">
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<Home />} /> {/* Home page route */}
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/learn" element={<Learn />} />
           <Route path="/login" element={<Login />} />
