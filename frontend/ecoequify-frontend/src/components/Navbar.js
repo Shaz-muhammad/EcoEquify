@@ -29,8 +29,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/dashboard" className="navbar-link">
-              Dashboard
+            <Link to="/learn" className="navbar-link">
+              Learn
             </Link>
           </li>
           <li>
@@ -39,10 +39,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/learn" className="navbar-link">
-              Learn
+            <Link to="/dashboard" className="navbar-link">
+              Implement
             </Link>
           </li>
+
           <li>
             <Link to="/support" className="navbar-link">
               Support

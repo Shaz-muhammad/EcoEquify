@@ -15,9 +15,9 @@ const App = () => {
       <div className="container mx-auto">
         <Routes>
           <Route path="/" element={<Home />} /> {/* Home page route */}
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/assessment" element={<Assessment />} />
           <Route path="/learn" element={<Learn />} />
+          <Route path="/assessment" element={<Assessment />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/login" element={<Login />} />
           <Route path="/support" element={<Support />} />
         </Routes>

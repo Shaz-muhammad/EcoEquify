@@ -1,0 +1,100 @@
+.assessment-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assessment-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .assessment-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .instructions {
+    margin-bottom: 2rem;
+  }
+  
+  .instructions h2 {
+    font-size: 1.5rem;
+    color: #2ecc71;
+  }
+  
+  .instructions p {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .quiz-form .question {
+    margin-bottom: 1.5rem;
+  }
+  
+  .quiz-form .question p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #34495e;
+  }
+  
+  .quiz-form label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .button-container button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .result {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .result h2 {
+    font-size: 1.5rem;
+    color: #e67e22;
+  }
+  
+  .scorecard {
+    margin-top: 2rem;
+  }
+  
+  .scorecard h2 {
+    font-size: 1.5rem;
+    color: #9b59b6;
+  }
+  
+  .scorecard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .scorecard li {
+    margin: 0.5rem 0;
+    color: #7f8c8d;
+  }
+  
